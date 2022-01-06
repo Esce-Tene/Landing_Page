@@ -5,20 +5,21 @@ body {
 
 .header {
   display: flex;
-  color: #F9FAF8;
   background-color: #1F2937;
   
 }
 
 .left-text {
-  font-size: 48px;
-  font-weight: 900;
+  display: flex;
   margin-left: 100px;
+  align-content: center;
+  flex-wrap: wrap;
+  font-size: 24px;
+  color: #F9FAF8;
+  font-weight: 700;
 }
 
 .right-text {
-  font-size: 18px;
-  color: #E5E7EB;
   display: flex;
   margin-left: auto;
   margin-right: 100px;
@@ -27,4 +28,68 @@ body {
 
 ul {
   list-style: none;
+}
+
+.top-container {
+  display: flex;
+  background-color: #1F2937;
+  height: 30vh;
+  padding: 100px;
+  justify-content: space-around;
+}
+
+.top-right-container,
+.top-left-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 300px;
+  margin: 5px;
+}
+
+.hero-main {
+  display: flex;
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+}
+
+.image-holder,
+.right-text,
+.bellow-hero {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+button {
+  color: #E5E7EB;
+  font-weight: 700;
+  background-color: #3882F6;
+  font-size: 18px;
+}
+
+.hero-button {
+  padding: 8px 32px;
+  border-radius: 8px;
+  border: none;
+}
+
+.image-holder {
+  background-color: #9097a765;
+  display: flex;
+  width: 500px;
+  align-items: center;
+  justify-content: center;
+}
+
+.information {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  display: flex;
+  justify-content: center;
+}
+
+.second-container {
+  display: flex;
 }
